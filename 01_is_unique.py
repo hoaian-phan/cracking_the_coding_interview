@@ -23,10 +23,9 @@ def is_unique(string):
 
 
 if __name__ == "__main__":
-    # Test for the first approach
-    assert is_unique("howdy") == True
-    assert is_unique("hello") == False
-    assert is_unique("") == True
-    assert is_unique("hi you") == True
-    assert is_unique("Dod") == True
+    assert is_unique("howdy") is True
+    assert is_unique("hello") is False
+    assert is_unique("") is True
+    assert is_unique("hi you") is True
+    assert is_unique("Dod") is True
     print("All tests passed.")
